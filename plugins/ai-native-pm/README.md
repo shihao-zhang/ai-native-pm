@@ -1,6 +1,6 @@
 # AI-native PM
 
-版本：0.6.0-rc.1。构建性质：公开预发布。插件身份为`ai-native-pm`，按任务选用下列能力；插件只负责分发，不增加另一套流程、MCP、hook或业务授权。来源见[SOURCE.json](SOURCE.json)，版本变化见[CHANGELOG](CHANGELOG.md)。许可见[MIT LICENSE](LICENSE)，上游署名见[NOTICE](NOTICE.md)。
+版本：0.6.0-rc.1+diagram.1。构建性质：公开预发布。插件身份为`ai-native-pm`，按任务选用下列能力；插件只负责分发，不增加另一套流程、MCP、hook或业务授权。来源见[SOURCE.json](SOURCE.json)，版本变化见[CHANGELOG](CHANGELOG.md)。许可见[MIT LICENSE](LICENSE)，上游署名见[NOTICE](NOTICE.md)。
 
 **第一次使用从[一个需求开始](GETTING_STARTED.md)**：选择项目、核已有材料，再决定复用还是新建chat。协作关系见[架构导航与图](WORKFLOW.md)；想把实战反馈变成方法时，按需读[经验内化指南](references/learning-loop.md)。安装后不会自动建项目或运行后台维护；可将指南交给当前agent执行已授权部分。
 

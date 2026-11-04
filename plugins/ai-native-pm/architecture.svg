@@ -1,1 +1,125 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1040" viewBox="0 0 1440 1040" role="img" aria-labelledby="title desc"><title id="title">AI-native PM：项目协作与方法内化</title><desc id="desc">首次接入进入项目协作，需求和原型迭代，设计走查与交付按需进行。实战反馈经去重、对齐和验证形成新方法版本，由项目明确采用。项目上下文与可复用方法分别维护。</desc><defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#52786c"/></marker></defs><rect width="1440" height="1040" fill="#f6f5f0"/><g font-family="PingFang SC,Microsoft YaHei,Arial,sans-serif" fill="#233a35"><text x="48" y="51" font-size="31" font-weight="700" fill="#233a35">AI-native PM</text><text x="48" y="84" font-size="21" font-weight="400" fill="#233a35">一个项目开展真实工作，一份方法持续改进</text><text x="1130" y="48" font-size="16" font-weight="400" fill="#65766e">0.6 候选 · 协作导航</text><rect x="48" y="114" width="1344" height="78" rx="12" fill="#e8f0eb" stroke="#cdd9d3"/><text x="68" y="145" font-size="20" font-weight="600" fill="#233a35">首次接入</text><text x="220" y="145" font-size="19" font-weight="400" fill="#233a35">选择或建立项目 → 核文件根与权限 → 找已有事项 → 选当前任务入口</text><text x="220" y="174" font-size="16" font-weight="400" fill="#52645e">GETTING_STARTED · 一个需求、一个 chat 即可开始；多需求才按需分工</text><text x="48" y="233" font-size="23" font-weight="600" fill="#233a35">项目层｜产品协作</text><text x="1040" y="233" font-size="16" font-weight="400" fill="#65766e">按目标进入，不强制逐站执行</text><rect x="48" y="256" width="244" height="112" rx="12" fill="#ffffff" stroke="#cdd9d3"/><text x="66" y="286" font-size="22" font-weight="600" fill="#233a35">目标与事实</text><text x="66" y="316" font-size="16" font-weight="400" fill="#52645e">PM确定范围与取舍</text><text x="66" y="340" font-size="16" font-weight="400" fill="#52645e">读取项目已有决定</text><rect x="323" y="256" width="244" height="112" rx="12" fill="#e8f0eb" stroke="#cdd9d3"/><text x="341" y="286" font-size="22" font-weight="600" fill="#233a35">需求共写</text><text x="341" y="316" font-size="16" font-weight="400" fill="#52645e">prd-cowrite</text><text x="341" y="340" font-size="16" font-weight="400" fill="#52645e">定义、图示、完成判据</text><rect x="598" y="256" width="244" height="112" rx="12" fill="#e8f0eb" stroke="#cdd9d3"/><text x="616" y="286" font-size="22" font-weight="600" fill="#233a35">原型共创</text><text x="616" y="316" font-size="16" font-weight="400" fill="#52645e">prototype-codesign</text><text x="616" y="340" font-size="16" font-weight="400" fill="#52645e">交互表达与设计决策</text><rect x="873" y="256" width="244" height="112" rx="12" fill="#ffffff" stroke="#cdd9d3"/><text x="891" y="286" font-size="22" font-weight="600" fill="#233a35">设计走查与修复</text><text x="891" y="316" font-size="16" font-weight="400" fill="#52645e">定位当前承接人</text><text x="891" y="340" font-size="16" font-weight="400" fill="#52645e">原状态复验关闭问题</text><rect x="1148" y="256" width="244" height="112" rx="12" fill="#ffffff" stroke="#cdd9d3"/><text x="1166" y="286" font-size="22" font-weight="600" fill="#233a35">按约定交付</text><text x="1166" y="316" font-size="16" font-weight="400" fill="#52645e">核实际接收副本</text><text x="1166" y="340" font-size="16" font-weight="400" fill="#52645e">保留未验与开放项</text><path d="M292 310 L319 310" fill="none" stroke="#52786c" stroke-width="2" marker-end="url(#arrow)"/><path d="M567 310 L594 310" fill="none" stroke="#52786c" stroke-width="2" marker-end="url(#arrow)"/><path d="M842 310 L869 310" fill="none" stroke="#52786c" stroke-width="2" marker-end="url(#arrow)"/><path d="M1117 310 L1144 310" fill="none" stroke="#52786c" stroke-width="2" marker-end="url(#arrow)"/><path d="M596 337 L570 337" fill="none" stroke="#52786c" stroke-width="2" marker-end="url(#arrow)"/><path d="M995 370 V408 H445 V370" fill="none" stroke="#52786c" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/><text x="580" y="432" font-size="16" font-weight="400" fill="#52645e">反馈按影响回到需求或设计；沿用已有确认</text><rect x="48" y="461" width="850" height="95" rx="12" fill="#fff" stroke="#cdd9d3"/><text x="68" y="491" font-size="20" font-weight="600" fill="#233a35">项目自己的上下文</text><text x="68" y="523" font-size="17" font-weight="400" fill="#233a35">业务事实 · 需求与设计 · 状态与写区 · DS／工程入口 · 经验与证据</text><rect x="922" y="461" width="470" height="95" rx="12" fill="#fff" stroke="#cdd9d3"/><text x="942" y="491" font-size="20" font-weight="600" fill="#233a35">按需能力，不加必经阶段</text><text x="942" y="523" font-size="16" font-weight="400" fill="#233a35">决策拷问 · 静态报告 · 影响与证据核查</text><text x="48" y="606" font-size="23" font-weight="600" fill="#233a35">方法层｜经验内化</text><text x="1010" y="606" font-size="16" font-weight="400" fill="#65766e">references/learning-loop · 按需读取</text><rect x="48" y="631" width="244" height="112" rx="12" fill="#ffffff" stroke="#cdd9d3"/><text x="66" y="661" font-size="22" font-weight="600" fill="#233a35">当事人记录</text><text x="66" y="691" font-size="16" font-weight="400" fill="#52645e">用户反馈或自然节点</text><text x="66" y="715" font-size="16" font-weight="400" fill="#52645e">保留来源、版本、边界</text><rect x="323" y="631" width="244" height="112" rx="12" fill="#ffffff" stroke="#cdd9d3"/><text x="341" y="661" font-size="22" font-weight="600" fill="#233a35">核证据并去重</text><text x="341" y="691" font-size="16" font-weight="400" fill="#52645e">已有／项目特有</text><text x="341" y="715" font-size="16" font-weight="400" fill="#52645e">可迁移候选／待验证</text><rect x="598" y="631" width="244" height="112" rx="12" fill="#ffffff" stroke="#cdd9d3"/><text x="616" y="661" font-size="22" font-weight="600" fill="#233a35">对齐后改唯一源</text><text x="616" y="691" font-size="16" font-weight="400" fill="#52645e">常用判断进共创</text><text x="616" y="715" font-size="16" font-weight="400" fill="#52645e">详细方法与案例按需</text><rect x="873" y="631" width="244" height="112" rx="12" fill="#ffffff" stroke="#cdd9d3"/><text x="891" y="661" font-size="22" font-weight="600" fill="#233a35">相关验证与封包</text><text x="891" y="691" font-size="16" font-weight="400" fill="#52645e">按改动验证与回读</text><text x="891" y="715" font-size="16" font-weight="400" fill="#52645e">形成新候选及说明</text><rect x="1148" y="631" width="244" height="112" rx="12" fill="#ffffff" stroke="#cdd9d3"/><text x="1166" y="661" font-size="22" font-weight="600" fill="#233a35">项目选择采用</text><text x="1166" y="691" font-size="16" font-weight="400" fill="#52645e">核实际载入版本</text><text x="1166" y="715" font-size="16" font-weight="400" fill="#52645e">真实反馈继续回流</text><path d="M292 685 L319 685" fill="none" stroke="#52786c" stroke-width="2" marker-end="url(#arrow)"/><path d="M567 685 L594 685" fill="none" stroke="#52786c" stroke-width="2" marker-end="url(#arrow)"/><path d="M842 685 L869 685" fill="none" stroke="#52786c" stroke-width="2" marker-end="url(#arrow)"/><path d="M1117 685 L1144 685" fill="none" stroke="#52786c" stroke-width="2" marker-end="url(#arrow)"/><path d="M1270 368 V450 H1415 V580 H24 V685 H45" fill="none" stroke="#a4814f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/><path d="M1392 687 H1425 V213 H720 V253" fill="none" stroke="#52786c" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/><text x="50" y="789" font-size="21" font-weight="600" fill="#233a35">通用方法统一维护 → 生成 plugin 与独立 skill 包；安装副本不手改</text><text x="50" y="824" font-size="18" font-weight="400" fill="#52645e">项目资料留各自项目；专线是可选分工，权威信息落在团队可访问资产中</text><rect x="48" y="860" width="1344" height="116" rx="12" fill="#eeeae0" stroke="#ded8cb"/><text x="68" y="892" font-size="20" font-weight="600" fill="#233a35">边界与读图方式</text><text x="68" y="924" font-size="17" font-weight="400" fill="#233a35">实线：可能的工作衔接　虚线：反馈与版本采用　阶段含义以对应流程为准</text><text x="68" y="952" font-size="17" font-weight="400" fill="#233a35">这张图不启动自动化、不授权外发，也不把“已交付”解释为真实服务全部验通。</text><text x="48" y="1010" font-size="15" font-weight="400" fill="#65766e">架构说明见同包 WORKFLOW.md；首次接入与元方法均由 README 导航。</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1740" viewBox="0 0 1440 1740" role="img" aria-labelledby="title desc">
+<title id="title">AI-native PM：项目协作与方法内化</title>
+<desc id="desc">项目上下文分为必填、条件必填和柔性信息。产品协作五步为核心，辅助能力区分用户主动唤起和Agent按任务调用。经验内化形成候选版本，由项目选择采用。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#738a80"/></marker><marker id="light" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#bdd8cc"/></marker></defs>
+<rect width="1440" height="1740" fill="#f8f7f3"/><g font-family="PingFang SC,Microsoft YaHei,Arial,sans-serif">
+<text x="64" y="66" font-size="34" fill="#263f36" font-weight="700">AI-native PM</text>
+<text x="64" y="107" font-size="22" fill="#5d7066" font-weight="400">一个项目开展真实工作，一份方法持续改进</text>
+<text x="1135" y="66" font-size="16" fill="#687b71" font-weight="400">0.6 rc.4 · 协作导航</text>
+<text x="64" y="177" font-size="24" fill="#263f36" font-weight="600">01  项目接入</text>
+<text x="260" y="177" font-size="20" fill="#63766c" font-weight="400">上下文留在自己的项目</text>
+<text x="64" y="215" font-size="18" fill="#63766c" font-weight="400">AI先读已有入口，只补关键缺口；一个需求、一个chat即可开始。</text>
+<rect x="64" y="244" width="416" height="292" rx="14" fill="#edf1eb"/>
+<text x="88" y="282" font-size="21" fill="#49644e" font-weight="600">必填</text>
+<text x="88" y="312" font-size="17" fill="#49644e" font-weight="400">开工前确认</text>
+<text x="88" y="352" font-size="16" fill="#49644e" font-weight="600">工作位置</text>
+<text x="88" y="377" font-size="17" fill="#263f36" font-weight="400">实际文件根、项目入口与允许写区</text>
+<text x="88" y="412" font-size="16" fill="#49644e" font-weight="600">本轮任务</text>
+<text x="88" y="437" font-size="17" fill="#263f36" font-weight="400">目标与范围、已有事项及决定入口</text>
+<text x="88" y="472" font-size="16" fill="#49644e" font-weight="600">方法身份</text>
+<text x="88" y="497" font-size="17" fill="#263f36" font-weight="400">方法包来源、版本与参考文件可读</text>
+<rect x="512" y="244" width="416" height="292" rx="14" fill="#f3eee3"/>
+<text x="536" y="282" font-size="21" fill="#816c44" font-weight="600">条件必填</text>
+<text x="536" y="312" font-size="17" fill="#816c44" font-weight="400">执行相关动作前确认</text>
+<text x="536" y="352" font-size="16" fill="#816c44" font-weight="600">原型／工程接入</text>
+<text x="536" y="377" font-size="17" fill="#263f36" font-weight="400">页面基线、DS／工程入口与固定版本</text>
+<text x="536" y="412" font-size="16" fill="#816c44" font-weight="600">外部访问／发布</text>
+<text x="536" y="437" font-size="17" fill="#263f36" font-weight="400">目标渠道、账户权限与本次授权</text>
+<text x="536" y="472" font-size="16" fill="#816c44" font-weight="600">仍有缺口</text>
+<text x="536" y="497" font-size="17" fill="#263f36" font-weight="400">可先做已授权草图，未核项不报完成</text>
+<rect x="960" y="244" width="416" height="292" rx="14" fill="#eef0f4"/>
+<text x="984" y="282" font-size="21" fill="#62708a" font-weight="600">柔性</text>
+<text x="984" y="312" font-size="17" fill="#62708a" font-weight="400">按需要逐步补齐</text>
+<text x="984" y="352" font-size="16" fill="#62708a" font-weight="600">组织分工</text>
+<text x="984" y="377" font-size="17" fill="#263f36" font-weight="400">协调者、DS维护者、专项chat</text>
+<text x="984" y="412" font-size="16" fill="#62708a" font-weight="600">项目材料</text>
+<text x="984" y="437" font-size="17" fill="#263f36" font-weight="400">历史案例、术语、接口与业务背景</text>
+<text x="984" y="472" font-size="16" fill="#62708a" font-weight="600">持续记录</text>
+<text x="984" y="497" font-size="17" fill="#263f36" font-weight="400">任务状态、经验与证据沿用已有入口</text>
+<rect x="48" y="590" width="1344" height="340" rx="20" fill="#dce8df"/>
+<text x="76" y="637" font-size="29" fill="#263f36" font-weight="700">02  项目层｜产品协作</text>
+<text x="938" y="635" font-size="17" fill="#496657" font-weight="400">核心流程 · 按目标进入，沿用已有确认</text>
+<rect x="76" y="672" width="232" height="170" rx="12" fill="#f4f7f2"/>
+<text x="94" y="705" font-size="16" fill="#6c8375" font-weight="600">01</text>
+<text x="94" y="741" font-size="23" fill="#263f36" font-weight="600">目标与事实</text>
+<text x="94" y="778" font-size="17" fill="#354d40" font-weight="400">PM确定范围与取舍</text>
+<text x="94" y="808" font-size="17" fill="#526c5d" font-weight="400">读取项目已有决定</text>
+<path d="M310 752 H336" fill="none" stroke="#738a80" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="340" y="672" width="232" height="170" rx="12" fill="#f4f7f2"/>
+<text x="358" y="705" font-size="16" fill="#6c8375" font-weight="600">02</text>
+<text x="358" y="741" font-size="23" fill="#263f36" font-weight="600">需求共写</text>
+<text x="358" y="778" font-size="18" fill="#182820" font-weight="700">prd-cowrite</text>
+<text x="358" y="808" font-size="17" fill="#526c5d" font-weight="400">定义、图示、完成判据</text>
+<path d="M574 752 H600" fill="none" stroke="#738a80" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="604" y="672" width="232" height="170" rx="12" fill="#f4f7f2"/>
+<text x="622" y="705" font-size="16" fill="#6c8375" font-weight="600">03</text>
+<text x="622" y="741" font-size="23" fill="#263f36" font-weight="600">原型共创</text>
+<text x="622" y="778" font-size="18" fill="#182820" font-weight="700">prototype-codesign</text>
+<text x="622" y="808" font-size="17" fill="#526c5d" font-weight="400">交互表达与设计决策</text>
+<path d="M838 752 H864" fill="none" stroke="#738a80" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="868" y="672" width="232" height="170" rx="12" fill="#f4f7f2"/>
+<text x="886" y="705" font-size="16" fill="#6c8375" font-weight="600">04</text>
+<text x="886" y="741" font-size="23" fill="#263f36" font-weight="600">设计走查与修复</text>
+<text x="886" y="778" font-size="17" fill="#354d40" font-weight="400">定位当前承接人</text>
+<text x="886" y="808" font-size="17" fill="#526c5d" font-weight="400">原状态复验关闭问题</text>
+<path d="M1102 752 H1128" fill="none" stroke="#738a80" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="1132" y="672" width="232" height="170" rx="12" fill="#f4f7f2"/>
+<text x="1150" y="705" font-size="16" fill="#6c8375" font-weight="600">05</text>
+<text x="1150" y="741" font-size="23" fill="#263f36" font-weight="600">按约定交付</text>
+<text x="1150" y="778" font-size="17" fill="#354d40" font-weight="400">核实际接收副本</text>
+<text x="1150" y="808" font-size="17" fill="#526c5d" font-weight="400">保留未验与开放项</text>
+<path d="M602 807 H576" fill="none" stroke="#738a80" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M984 845 V866 H456 V845" fill="none" stroke="#738a80" stroke-width="2" stroke-dasharray="5 6" marker-end="url(#arrow)"/>
+<text x="382" y="904" font-size="18" fill="#496657" font-weight="400">需求与原型可交替推进；反馈按影响回到需求或设计。</text>
+<text x="64" y="988" font-size="20" fill="#62736b" font-weight="600">辅助能力</text>
+<text x="198" y="988" font-size="17" fill="#7a8881" font-weight="400">不增加必经阶段</text>
+<rect x="64" y="1012" width="640" height="174" rx="14" fill="#f0ece5"/>
+<text x="88" y="1049" font-size="20" fill="#7d694c" font-weight="600">用户主动唤起</text>
+<text x="88" y="1080" font-size="16" fill="#7d694c" font-weight="400">明确提出访谈或独立报告任务</text>
+<text x="88" y="1122" font-size="18" fill="#40554b" font-weight="600">sz-grilling</text>
+<text x="344" y="1122" font-size="17" fill="#5e7167" font-weight="400">逐题挑战关键选择</text>
+<text x="88" y="1156" font-size="18" fill="#40554b" font-weight="600">editorial-report-html</text>
+<text x="344" y="1156" font-size="17" fill="#5e7167" font-weight="400">独立静态HTML报告／手册</text>
+<rect x="736" y="1012" width="640" height="174" rx="14" fill="#edf0ed"/>
+<text x="760" y="1049" font-size="20" fill="#597263" font-weight="600">Agent按任务调用</text>
+<text x="760" y="1080" font-size="16" fill="#597263" font-weight="400">遇到改判影响或证据核查需要时</text>
+<text x="760" y="1122" font-size="18" fill="#40554b" font-weight="600">backscan</text>
+<text x="1016" y="1122" font-size="17" fill="#5e7167" font-weight="400">改判后的影响回扫</text>
+<text x="760" y="1156" font-size="18" fill="#40554b" font-weight="600">evidence-check</text>
+<text x="1016" y="1156" font-size="17" fill="#5e7167" font-weight="400">交付与验收结论核证</text>
+<text x="64" y="1247" font-size="24" fill="#263f36" font-weight="600">03  方法层｜经验内化</text>
+<text x="965" y="1247" font-size="17" fill="#738379" font-weight="400">learning-loop · 包内按需参考</text>
+<rect x="64" y="1276" width="240" height="136" rx="12" fill="#edf0eb"/>
+<text x="82" y="1315" font-size="21" fill="#263f36" font-weight="600">当事人记录</text>
+<text x="82" y="1352" font-size="17" fill="#63766c" font-weight="400">用户反馈或自然节点</text>
+<text x="82" y="1380" font-size="17" fill="#63766c" font-weight="400">保留来源、版本、边界</text>
+<path d="M306 1342 H328" fill="none" stroke="#738a80" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="332" y="1276" width="240" height="136" rx="12" fill="#edf0eb"/>
+<text x="350" y="1315" font-size="21" fill="#263f36" font-weight="600">核证据并去重</text>
+<text x="350" y="1352" font-size="17" fill="#63766c" font-weight="400">已有／项目特有</text>
+<text x="350" y="1380" font-size="17" fill="#63766c" font-weight="400">可迁移候选／待验证</text>
+<path d="M574 1342 H596" fill="none" stroke="#738a80" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="600" y="1276" width="240" height="136" rx="12" fill="#edf0eb"/>
+<text x="618" y="1315" font-size="21" fill="#263f36" font-weight="600">对齐后改唯一源</text>
+<text x="618" y="1352" font-size="17" fill="#63766c" font-weight="400">常用判断进共创</text>
+<text x="618" y="1380" font-size="17" fill="#63766c" font-weight="400">详细方法与案例按需</text>
+<path d="M842 1342 H864" fill="none" stroke="#738a80" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="868" y="1276" width="240" height="136" rx="12" fill="#edf0eb"/>
+<text x="886" y="1315" font-size="21" fill="#263f36" font-weight="600">相关验证与封包</text>
+<text x="886" y="1352" font-size="17" fill="#63766c" font-weight="400">按改动验证与回读</text>
+<text x="886" y="1380" font-size="17" fill="#63766c" font-weight="400">形成新候选及说明</text>
+<path d="M1110 1342 H1132" fill="none" stroke="#738a80" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="1136" y="1276" width="240" height="136" rx="12" fill="#edf0eb"/>
+<text x="1154" y="1315" font-size="21" fill="#263f36" font-weight="600">项目选择采用</text>
+<text x="1154" y="1352" font-size="17" fill="#63766c" font-weight="400">核实际载入版本</text>
+<text x="1154" y="1380" font-size="17" fill="#63766c" font-weight="400">真实反馈继续回流</text>
+<path d="M1376 1342 H1412 V760 H1392" fill="none" stroke="#738a80" stroke-width="2" stroke-dasharray="5 6" marker-end="url(#arrow)"/>
+<path d="M48 810 H28 V1342 H64" fill="none" stroke="#738a80" stroke-width="2" stroke-dasharray="5 6" marker-end="url(#arrow)"/>
+<text x="64" y="1463" font-size="18" fill="#63766c" font-weight="400">实战反馈进入方法维护；新版本由项目明确采用。</text>
+<text x="64" y="1525" font-size="22" fill="#263f36" font-weight="600">通用方法统一维护 → 生成plugin与独立skill包</text>
+<text x="64" y="1562" font-size="18" fill="#63766c" font-weight="400">安装副本不手改；外部能力回各自维护源修订，插件装配固定快照。</text>
+<text x="64" y="1626" font-size="17" fill="#263f36" font-weight="600">读图边界</text>
+<text x="178" y="1626" font-size="17" fill="#63766c" font-weight="400">实线表示可能的工作衔接，虚线表示反馈与版本采用；阶段含义以对应流程为准。</text>
+<text x="64" y="1662" font-size="17" fill="#63766c" font-weight="400">缺DS可做已授权草图；本图不启动自动化、不授权外发，也不把“已交付”等同真实服务全部验通。</text>
+<text x="64" y="1710" font-size="16" fill="#7a8881" font-weight="400">接入：GETTING_STARTED　·　能力映射：WORKFLOW　·　具体动作：各skill及项目当前约定</text>
+</g></svg>

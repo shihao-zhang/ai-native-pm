@@ -2,13 +2,15 @@
 
 面向产品经理的 AI 协作方法包：需求共写、原型共创，以及按需使用的决策访谈、HTML报告与证据核查。
 
-**当前版本：0.6.0-rc.1，公开预发布。** 脚本与内容检查不代表宿主安装或真实业务使用通过。
+**当前版本：0.6.0-rc.1+diagram.1，公开预发布。** 脚本与内容检查不代表宿主安装或真实业务使用通过。
 
 - [从一个需求开始](plugins/ai-native-pm/GETTING_STARTED.md)
 - [安装、六个技能和使用说明](plugins/ai-native-pm/README.md)
 - [协作流程架构](plugins/ai-native-pm/WORKFLOW.md)
 - [版本记录](plugins/ai-native-pm/CHANGELOG.md)
 - [下载预发布包](https://github.com/shihao-zhang/ai-native-pm/releases)
+
+本次仅更新架构图，原样采用0.6.0-rc.4图示；技能内容仍为首次公开版本。
 
 ![协作流程](plugins/ai-native-pm/architecture.svg)
 
@@ -19,7 +21,7 @@
 ```sh
 git clone https://github.com/shihao-zhang/ai-native-pm.git
 cd ai-native-pm
-git checkout v0.6.0-rc.1
+git checkout v0.6.0-rc.1+diagram.1
 ```
 
 仓库包含本地marketplace示例；克隆不等于已安装。按包内安装说明由使用者选择安装方式，并核实宿主实际加载。也可以直接让agent读取所选skill的SKILL.md与相对参考文件。

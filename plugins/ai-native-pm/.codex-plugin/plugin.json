@@ -1,6 +1,6 @@
 {
   "name": "ai-native-pm",
-  "version": "0.6.0-rc.1",
+  "version": "0.6.0-rc.1+diagram.1",
   "description": "产品需求与原型共创，附可选决策访谈、静态HTML报告、影响与证据核查；项目上下文由使用者维护。",
   "skills": "./skills/"
 }

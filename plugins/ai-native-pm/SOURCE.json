@@ -1,5 +1,5 @@
 {
-  "version": "0.6.0-rc.1",
+  "version": "0.6.0-rc.1+diagram.1",
   "kind": "public-prerelease",
   "origin_source_digest": "f18973ab348c27813d8b96bf73e3c3654a129221d2357e18d3a701d84528be35",
   "origin_dirty_sources": true,
@@ -83,5 +83,10 @@
         "scripts/serve_local_html.mjs": "833beb61f812e7305dd939c79f675bf73ac01ef44f70f4a384e5a8397f336158"
       }
     }
-  ]
+  ],
+  "diagram": {
+    "source_version": "0.6.0-rc.4",
+    "sha256": "8ad81aa92034140e3c7371a125a03e98c727f8310d0d037c23d0956f6fac0a20",
+    "note": "Diagram-only update. Skill files remain identical to the initial public 0.6.0-rc.1 release."
+  }
 }
