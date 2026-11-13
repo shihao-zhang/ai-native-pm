@@ -1,5 +1,8 @@
 ---
 name: editorial-report-html
+metadata:
+  version: "candidate-20261113-pm-routing"
+  upstream_version: "2.4.0"
 description: 创建、改造或审查自包含的静态HTML报告、决策简报与学习手册。仅在用户明确要求此类阅读产物为HTML/静态页面，或明确评审、优化已有此类HTML时触发。长材料、“美化”“可视化”或HTML字样本身不充分；沿既有生成链编辑PRD、实现交互原型/网站/App、只画独立图以及未定格式的资料整理不触发。由PRD提炼独立HTML汇报时可用，但保留产品定义源及版本。资料扩展、发布与上传依各自授权处理。
 ---
 

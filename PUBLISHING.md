@@ -1,19 +1,18 @@
-# Public distribution
+# 公开分发
 
-此仓保存可分发的完整内容，不包含内部项目历史、业务材料、凭据或维护者机器路径。业务经验在维护源中整理，先核内容再生成本仓快照。外部贡献须由维护者回流对应维护源，避免公开副本和维护源分叉。
+本仓保存一个可分发的插件目录 `plugins/ai-native-pm/`。`downloads/` 包含完整插件、六个独立技能 ZIP 和 `SHA256SUMS`。历史公开版本由原 Git 标签和 Release 保留。
 
-本次公开打包只改变导航、许可、署名、公开来源元数据与历史状态说明。六个skill的39个文件与原候选逐字节一致，摘要记录在plugin的SOURCE.json。原候选构建时源工作树存在未提交改动，因此其摘要只能识别固定输入，不能声称由一个公开Git提交重现全部维护过程。
+[来源记录](plugins/ai-native-pm/SOURCE.json) 标识公开派生候选、上游版本、固定输入摘要及公开文件哈希。固定输入含未提交的维护源内容，因此只能从所记录的固定分发输入复现快照。公开仓的脚本使用现有公开文件重新打包。方法变更须回到维护源，重新生成并核对内容。
 
-从本仓重新生成ZIP与SHA256SUMS：
+## 校验或重建下载包
+
+需要 uv 与 Python 3.10+，全程使用标准库。
 
 ```sh
-uv run --no-project --offline python scripts/package_release.py
+uv run --no-project --offline python scripts/package_release.py --check
+uv run --no-project --offline python scripts/package_release.py --output ./rebuilt-downloads
 ```
 
-该脚本只打包本仓已有内容，不下载上游或自动发布。发布者先核版本、来源摘要与许可，再运行相关示例。上传Release后重新下载附件校验摘要，标明已验与未验范围。变更技能内容必须更新SOURCE.json并经过对应维护源核准；不要仅更新哈希掩盖未经审核的内容变化。
+默认输出路径是 `downloads/`。已有目录时脚本只核对其内容，重建时可另选一个新目录。ZIP 使用固定顺序、时间戳、权限和无压缩存储，重复生成可逐字节比对。插件和独立包保留 [MIT 许可](LICENSE)，相关包附带 [sz-grilling 上游署名及许可](plugins/ai-native-pm/NOTICE.md)。
 
-## 已知验证边界
-
-- 宿主插件安装、自动路由及长期真实任务使用仍待验证。
-- 原型设计依赖使用者项目自己的DS与工程，未附带或验证某公司的远端DS消费包。
-- 静态HTML结构或SVG检查不替代实际渲染、交互及打印验证。
+发布前核对版本、变更范围、脚本示例和包内文件。发布后从 Release 重新下载全部附件并逐个核对 SHA-256。宿主安装、自动触发、真实业务使用、实际设计系统接入及 HTML 界面验收分别记录。

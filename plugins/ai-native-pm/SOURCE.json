@@ -1,50 +1,84 @@
 {
-  "version": "0.6.0-rc.1+diagram.1",
-  "kind": "public-prerelease",
-  "origin_source_digest": "f18973ab348c27813d8b96bf73e3c3654a129221d2357e18d3a701d84528be35",
+  "kind": "public-derived-candidate",
+  "note": "Fixed distribution input identified by digest. Maintenance source was not fully committed when built. Host installation and runtime adoption have not been verified.",
   "origin_dirty_sources": true,
-  "note": "Generated from a frozen candidate snapshot. Origin digest identifies the snapshot; it is not a reproducible public source commit. Internal paths and private repository metadata are omitted. All skill contents are unchanged.",
+  "origin_downloads_sha256": {
+    "ai-native-pm-plugin-0.7.0-rc.1.zip": "f6bb1326405853846139d53f553a4c40635ef5526231201d32b31d6ed7e09a81",
+    "backscan-skill-0.7.0-rc.1.zip": "a7bc674cbe3c1eb9f38f2869f1f9c623237547a65a6c5c6afbc430b9495d3f57",
+    "editorial-report-html-skill-0.7.0-rc.1.zip": "8ce05ab692a71229926aa3fd52b44097b1edbebb774d10dc13ff3f0dae0d85dc",
+    "evidence-check-skill-0.7.0-rc.1.zip": "6b4c891d91aca7a003f08af5cb425ebda2612ef5f3055e27ab3bdd4f5093711a",
+    "prd-cowrite-skill-0.7.0-rc.1.zip": "c66470360ec7ce6d36671a6dc91beb70e354d9c6fa4cad11f8481883cc8dbae0",
+    "prototype-codesign-skill-0.7.0-rc.1.zip": "2aedbc3dc7658a92f7d4542aac33fedd3b83ea75ece90125f5931dcb1191b6e6",
+    "sz-grilling-skill-0.7.0-rc.1.zip": "d526e89ed9b82269afc0cca89c74c331efda6a6aa6544d696249d697eb80f54e"
+  },
+  "origin_kind": "candidate",
+  "origin_source_digest": "333765048df6891d0c4a01bd24aee514375c46a0fb1fe05a66190c3154200a14",
+  "origin_source_manifest_sha256": "3169e98c3abe5e36a0593c94716273d73461d5662c4a15095b0ec90e3f2bad68",
+  "plugin_files": {
+    ".codex-plugin/plugin.json": "75a0953b4edaa7915de496c07099dae1fd8281e41597db1ef05bd836d83eb122",
+    "CHANGELOG.md": "21f68d91d529332c2ab3e647f1aa0f741cfd82b3ed4660f29b1f999692b98f9e",
+    "GETTING_STARTED.md": "921eb089b5ffcea0cb8747f889ad910c4bf89837e3285ae92dfa376edf6ef96c",
+    "LICENSE": "19d27bd6d9e833b6253ca8255cb5b1bc758374070e336606fad7c13c04296d16",
+    "NOTICE.md": "b4037f0d9b3fd36262d96b56c737f4d2ba6b21e61ce66f8badf8d013d30e32e5",
+    "README.md": "eb0ab02312cd4c0dc3887a72491f2d5c1a6615e3ffd471c452f2abcacc8a951a",
+    "WORKFLOW.md": "f9e5a028b08c870a485592d729c487e67f45592c0a686cb456e27a3c2f3dbbde",
+    "architecture.svg": "2afbd34a302bd1524da1584cc36435fe3c3bdec77aa4b5a6de2d6f12f823ac8c",
+    "licenses/mattpocock-skills-MIT.txt": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5",
+    "plugin.json": "d3e32540d7bb73623a3a88135a35535b611cb81c842783572c85d07828fabc53",
+    "references/learning-loop.md": "d9990e4155ed002e5074896a4e5ad7eae761394ea80916900e82942c67a0a67c",
+    "skills/backscan/SKILL.md": "ee4d5b74c26bcddc2058c7e18bee848b0a91d41ae98ce94e76903099734210b1",
+    "skills/backscan/references/change-impact.md": "7b28ad2d305cbba16af875bb6ab65b789edb0766df4a2cd7b9a75c70eddf1308",
+    "skills/backscan/references/terminology.md": "f3a6f85cee3dd6e1948fef2e1c8d969d7ab465d89ec4054308ab637ca9130005",
+    "skills/editorial-report-html/CHANGELOG.md": "3f78973f3c0a35e0b9adde3f5b032afa011751dd46702d7a0d8930e797a1bf62",
+    "skills/editorial-report-html/SKILL.md": "ad8ec9f922abed6817dd6c098b2570eca93d66e146fdadc9bdcb9ba6c0e19038",
+    "skills/editorial-report-html/agents/openai.yaml": "db90a92e3c94d9df360b66127d3f781af0fee97d0cd620e2a64ba52bb846df25",
+    "skills/editorial-report-html/assets/editorial-base-template.html": "756301efd351f89d70dd79655398437e006bfef5b3e256f6cd4f0197d084607e",
+    "skills/editorial-report-html/assets/handbook-template.html": "4476241e687ecd62df8d62dd1c33158ea4b362b92f4bad1bb8611520e8d1f9dd",
+    "skills/editorial-report-html/references/design-rubric.md": "3ae95f5cc7e68760010841888772576a2df19518d452f909149da74200de6cd5",
+    "skills/editorial-report-html/references/handbook-navigation.md": "a921f54f8b0f1577714ae1ccd3039ace8a4dbca2065456a86f4d45a9310523cf",
+    "skills/editorial-report-html/references/html-preview.md": "81fbfc9f5f47740a28046a6a67768e5486d81eae8ec3c82ce287cb101460e8d6",
+    "skills/editorial-report-html/references/review-and-faq.md": "ceff8c76377a3ced23526382391dc93059f9635be4607f48d2336a2993f8bbed",
+    "skills/editorial-report-html/references/source-expansion-and-learning.md": "8a1110ae05d9fea2cbc00f108b0e77587b7b338279b3b46a5934f3b1fdab7a38",
+    "skills/editorial-report-html/scripts/audit_html.mjs": "eb38a6292a545f61f52bb104f95688e4176725df59128fd9a63262a7ed36dfd9",
+    "skills/editorial-report-html/scripts/serve_local_html.mjs": "833beb61f812e7305dd939c79f675bf73ac01ef44f70f4a384e5a8397f336158",
+    "skills/evidence-check/SKILL.md": "60e2819e795002e26f09513fe1afe8565b59893b7c442bdfc793fd0239d7a68a",
+    "skills/evidence-check/references/evidence-review.md": "e5473a9bdaaefcf0a188d6999626b86af862ad9df333d8d6f00e5de5ac966ece",
+    "skills/prd-cowrite/SKILL.md": "0da102272cdfc6ab27a2188da14c38e25b073849399fbafd771c1c68151af8af",
+    "skills/prd-cowrite/assets/example.md": "c85627f83de8c2e82452a8971e52cf3e42569b28c65230677e1684d1c9a5bd21",
+    "skills/prd-cowrite/assets/figures.example.json": "54a1587ff661f493c61b114f12f006a781b1329e613a34c828d03427c526a767",
+    "skills/prd-cowrite/assets/prd-template.md": "b6ebc4cf514b2df0f6b24a5d26c1ef0f9cbee8465b98d52a532d564b588d6851",
+    "skills/prd-cowrite/references/build.md": "501814d97ccdd9a668bf9c3a3291095c0e0d921c9ab0b4e79418a5505c1f2c3f",
+    "skills/prd-cowrite/references/change-impact.md": "7b28ad2d305cbba16af875bb6ab65b789edb0766df4a2cd7b9a75c70eddf1308",
+    "skills/prd-cowrite/references/diagrams.md": "ecb9b2048d6d06bf3a74f237d9c45fa1010ebf72acc9095e3d2e5f156b1baee2",
+    "skills/prd-cowrite/references/evidence-review.md": "e5473a9bdaaefcf0a188d6999626b86af862ad9df333d8d6f00e5de5ac966ece",
+    "skills/prd-cowrite/references/html-format.md": "3f37beceb0a0333e016d9d51616a16dbd87d274b292d39f181cb1ff7f712f097",
+    "skills/prd-cowrite/references/terminology.md": "f3a6f85cee3dd6e1948fef2e1c8d969d7ab465d89ec4054308ab637ca9130005",
+    "skills/prd-cowrite/references/workflow.md": "5822280ac8b9fa4a4a3b096f729cb9c6ef72495947d268b5462717261619b0d6",
+    "skills/prd-cowrite/scripts/build_prd_html.py": "b9994dec266623419c13af41258e9b0dded8a5c3eeb48b3f042a20dcf66df3bd",
+    "skills/prd-cowrite/scripts/svg_lint.py": "7e24fb56db55406f215a4530cc06db4d9be5e461e3c7ea245c7b26e3f4d862d5",
+    "skills/prototype-codesign/SKILL.md": "0cb45c9600766750fc49f0443b09689437f8880c47bff3ee7af81568e58b4598",
+    "skills/prototype-codesign/references/change-impact.md": "7b28ad2d305cbba16af875bb6ab65b789edb0766df4a2cd7b9a75c70eddf1308",
+    "skills/prototype-codesign/references/design-review.md": "03c81ccfaceee8605a8e06eb33558b858bc84edd7eea2b6beee5e06f33eabeb1",
+    "skills/prototype-codesign/references/evidence-review.md": "e5473a9bdaaefcf0a188d6999626b86af862ad9df333d8d6f00e5de5ac966ece",
+    "skills/prototype-codesign/references/intro-presentation.md": "b775c1fb4c5ad908d9a60f5085449111872e391e4fbe93101fc9a52a6067594f",
+    "skills/prototype-codesign/references/project-context.md": "bac4bdbd72b0146ad5d59d0a1aafe38b447620dd88b4caef373dc6a234f731ce",
+    "skills/prototype-codesign/references/terminology.md": "f3a6f85cee3dd6e1948fef2e1c8d969d7ab465d89ec4054308ab637ca9130005",
+    "skills/prototype-codesign/references/workflow.md": "f45141ad302f963b9d4d80eb0f2770bf26cbd2f87937057cfb8fcffc7d8b14dd",
+    "skills/sz-grilling/SKILL.md": "7b58552a6e9de59748e14a0a56f12c5fafbd5a57b33d715966b74967daafa0fe",
+    "skills/sz-grilling/agents/openai.yaml": "53caef361a74b3d3370351d43ea6532d3c7aa7ebf8dea37fa1c282ed818ff3ac",
+    "templates/README.md": "263d4872bbb56f771eaf943f25d67ea1b50136a30c7e256f24838ced033f7a7d",
+    "templates/执行指令模板.md": "a734df277045e14692712c5ad60955e0e19ee4a35e148b7fa924fb9ea5cc1e2a",
+    "templates/跨session交接书模板.md": "d848083bba2b8feaa866971b17efbdd31d08c563b2cc611e9b8da816cf9476ec"
+  },
   "skills_files": {
-    "prd-cowrite": {
-      "SKILL.md": "0da102272cdfc6ab27a2188da14c38e25b073849399fbafd771c1c68151af8af",
-      "assets/example.md": "c85627f83de8c2e82452a8971e52cf3e42569b28c65230677e1684d1c9a5bd21",
-      "assets/figures.example.json": "54a1587ff661f493c61b114f12f006a781b1329e613a34c828d03427c526a767",
-      "assets/prd-template.md": "b6ebc4cf514b2df0f6b24a5d26c1ef0f9cbee8465b98d52a532d564b588d6851",
-      "references/build.md": "501814d97ccdd9a668bf9c3a3291095c0e0d921c9ab0b4e79418a5505c1f2c3f",
-      "references/diagrams.md": "ecb9b2048d6d06bf3a74f237d9c45fa1010ebf72acc9095e3d2e5f156b1baee2",
-      "references/html-format.md": "3f37beceb0a0333e016d9d51616a16dbd87d274b292d39f181cb1ff7f712f097",
-      "references/workflow.md": "5822280ac8b9fa4a4a3b096f729cb9c6ef72495947d268b5462717261619b0d6",
-      "scripts/build_prd_html.py": "b9994dec266623419c13af41258e9b0dded8a5c3eeb48b3f042a20dcf66df3bd",
-      "scripts/svg_lint.py": "7e24fb56db55406f215a4530cc06db4d9be5e461e3c7ea245c7b26e3f4d862d5",
-      "references/change-impact.md": "7b28ad2d305cbba16af875bb6ab65b789edb0766df4a2cd7b9a75c70eddf1308",
-      "references/terminology.md": "f3a6f85cee3dd6e1948fef2e1c8d969d7ab465d89ec4054308ab637ca9130005",
-      "references/evidence-review.md": "e5473a9bdaaefcf0a188d6999626b86af862ad9df333d8d6f00e5de5ac966ece"
-    },
-    "prototype-codesign": {
-      "SKILL.md": "0cb45c9600766750fc49f0443b09689437f8880c47bff3ee7af81568e58b4598",
-      "references/design-review.md": "03c81ccfaceee8605a8e06eb33558b858bc84edd7eea2b6beee5e06f33eabeb1",
-      "references/intro-presentation.md": "b775c1fb4c5ad908d9a60f5085449111872e391e4fbe93101fc9a52a6067594f",
-      "references/project-context.md": "bac4bdbd72b0146ad5d59d0a1aafe38b447620dd88b4caef373dc6a234f731ce",
-      "references/workflow.md": "f45141ad302f963b9d4d80eb0f2770bf26cbd2f87937057cfb8fcffc7d8b14dd",
-      "references/change-impact.md": "7b28ad2d305cbba16af875bb6ab65b789edb0766df4a2cd7b9a75c70eddf1308",
-      "references/terminology.md": "f3a6f85cee3dd6e1948fef2e1c8d969d7ab465d89ec4054308ab637ca9130005",
-      "references/evidence-review.md": "e5473a9bdaaefcf0a188d6999626b86af862ad9df333d8d6f00e5de5ac966ece"
-    },
     "backscan": {
       "SKILL.md": "ee4d5b74c26bcddc2058c7e18bee848b0a91d41ae98ce94e76903099734210b1",
       "references/change-impact.md": "7b28ad2d305cbba16af875bb6ab65b789edb0766df4a2cd7b9a75c70eddf1308",
       "references/terminology.md": "f3a6f85cee3dd6e1948fef2e1c8d969d7ab465d89ec4054308ab637ca9130005"
     },
-    "evidence-check": {
-      "SKILL.md": "60e2819e795002e26f09513fe1afe8565b59893b7c442bdfc793fd0239d7a68a",
-      "references/evidence-review.md": "e5473a9bdaaefcf0a188d6999626b86af862ad9df333d8d6f00e5de5ac966ece"
-    },
-    "sz-grilling": {
-      "SKILL.md": "7b58552a6e9de59748e14a0a56f12c5fafbd5a57b33d715966b74967daafa0fe",
-      "agents/openai.yaml": "53caef361a74b3d3370351d43ea6532d3c7aa7ebf8dea37fa1c282ed818ff3ac"
-    },
     "editorial-report-html": {
-      "SKILL.md": "e68b2879c8d018f9ae4add636729d54cb69268e6f3795ebc8cf4eb61c8624328",
+      "CHANGELOG.md": "3f78973f3c0a35e0b9adde3f5b032afa011751dd46702d7a0d8930e797a1bf62",
+      "SKILL.md": "ad8ec9f922abed6817dd6c098b2570eca93d66e146fdadc9bdcb9ba6c0e19038",
       "agents/openai.yaml": "db90a92e3c94d9df360b66127d3f781af0fee97d0cd620e2a64ba52bb846df25",
       "assets/editorial-base-template.html": "756301efd351f89d70dd79655398437e006bfef5b3e256f6cd4f0197d084607e",
       "assets/handbook-template.html": "4476241e687ecd62df8d62dd1c33158ea4b362b92f4bad1bb8611520e8d1f9dd",
@@ -55,22 +89,54 @@
       "references/source-expansion-and-learning.md": "8a1110ae05d9fea2cbc00f108b0e77587b7b338279b3b46a5934f3b1fdab7a38",
       "scripts/audit_html.mjs": "eb38a6292a545f61f52bb104f95688e4176725df59128fd9a63262a7ed36dfd9",
       "scripts/serve_local_html.mjs": "833beb61f812e7305dd939c79f675bf73ac01ef44f70f4a384e5a8397f336158"
+    },
+    "evidence-check": {
+      "SKILL.md": "60e2819e795002e26f09513fe1afe8565b59893b7c442bdfc793fd0239d7a68a",
+      "references/evidence-review.md": "e5473a9bdaaefcf0a188d6999626b86af862ad9df333d8d6f00e5de5ac966ece"
+    },
+    "prd-cowrite": {
+      "SKILL.md": "0da102272cdfc6ab27a2188da14c38e25b073849399fbafd771c1c68151af8af",
+      "assets/example.md": "c85627f83de8c2e82452a8971e52cf3e42569b28c65230677e1684d1c9a5bd21",
+      "assets/figures.example.json": "54a1587ff661f493c61b114f12f006a781b1329e613a34c828d03427c526a767",
+      "assets/prd-template.md": "b6ebc4cf514b2df0f6b24a5d26c1ef0f9cbee8465b98d52a532d564b588d6851",
+      "references/build.md": "501814d97ccdd9a668bf9c3a3291095c0e0d921c9ab0b4e79418a5505c1f2c3f",
+      "references/change-impact.md": "7b28ad2d305cbba16af875bb6ab65b789edb0766df4a2cd7b9a75c70eddf1308",
+      "references/diagrams.md": "ecb9b2048d6d06bf3a74f237d9c45fa1010ebf72acc9095e3d2e5f156b1baee2",
+      "references/evidence-review.md": "e5473a9bdaaefcf0a188d6999626b86af862ad9df333d8d6f00e5de5ac966ece",
+      "references/html-format.md": "3f37beceb0a0333e016d9d51616a16dbd87d274b292d39f181cb1ff7f712f097",
+      "references/terminology.md": "f3a6f85cee3dd6e1948fef2e1c8d969d7ab465d89ec4054308ab637ca9130005",
+      "references/workflow.md": "5822280ac8b9fa4a4a3b096f729cb9c6ef72495947d268b5462717261619b0d6",
+      "scripts/build_prd_html.py": "b9994dec266623419c13af41258e9b0dded8a5c3eeb48b3f042a20dcf66df3bd",
+      "scripts/svg_lint.py": "7e24fb56db55406f215a4530cc06db4d9be5e461e3c7ea245c7b26e3f4d862d5"
+    },
+    "prototype-codesign": {
+      "SKILL.md": "0cb45c9600766750fc49f0443b09689437f8880c47bff3ee7af81568e58b4598",
+      "references/change-impact.md": "7b28ad2d305cbba16af875bb6ab65b789edb0766df4a2cd7b9a75c70eddf1308",
+      "references/design-review.md": "03c81ccfaceee8605a8e06eb33558b858bc84edd7eea2b6beee5e06f33eabeb1",
+      "references/evidence-review.md": "e5473a9bdaaefcf0a188d6999626b86af862ad9df333d8d6f00e5de5ac966ece",
+      "references/intro-presentation.md": "b775c1fb4c5ad908d9a60f5085449111872e391e4fbe93101fc9a52a6067594f",
+      "references/project-context.md": "bac4bdbd72b0146ad5d59d0a1aafe38b447620dd88b4caef373dc6a234f731ce",
+      "references/terminology.md": "f3a6f85cee3dd6e1948fef2e1c8d969d7ab465d89ec4054308ab637ca9130005",
+      "references/workflow.md": "f45141ad302f963b9d4d80eb0f2770bf26cbd2f87937057cfb8fcffc7d8b14dd"
+    },
+    "sz-grilling": {
+      "SKILL.md": "7b58552a6e9de59748e14a0a56f12c5fafbd5a57b33d715966b74967daafa0fe",
+      "agents/openai.yaml": "53caef361a74b3d3370351d43ea6532d3c7aa7ebf8dea37fa1c282ed818ff3ac"
     }
   },
   "upstream": [
     {
-      "name": "sz-grilling",
-      "version": "2.4.1-routing-candidate",
       "files": {
         "SKILL.md": "7b58552a6e9de59748e14a0a56f12c5fafbd5a57b33d715966b74967daafa0fe",
         "agents/openai.yaml": "53caef361a74b3d3370351d43ea6532d3c7aa7ebf8dea37fa1c282ed818ff3ac"
-      }
+      },
+      "name": "sz-grilling",
+      "version": "2.4.1-routing-candidate"
     },
     {
-      "name": "editorial-report-html",
-      "version": "2026.11.04-reader-review-routing-candidate",
       "files": {
-        "SKILL.md": "e68b2879c8d018f9ae4add636729d54cb69268e6f3795ebc8cf4eb61c8624328",
+        "CHANGELOG.md": "3f78973f3c0a35e0b9adde3f5b032afa011751dd46702d7a0d8930e797a1bf62",
+        "SKILL.md": "ad8ec9f922abed6817dd6c098b2570eca93d66e146fdadc9bdcb9ba6c0e19038",
         "agents/openai.yaml": "db90a92e3c94d9df360b66127d3f781af0fee97d0cd620e2a64ba52bb846df25",
         "assets/editorial-base-template.html": "756301efd351f89d70dd79655398437e006bfef5b3e256f6cd4f0197d084607e",
         "assets/handbook-template.html": "4476241e687ecd62df8d62dd1c33158ea4b362b92f4bad1bb8611520e8d1f9dd",
@@ -81,12 +147,10 @@
         "references/source-expansion-and-learning.md": "8a1110ae05d9fea2cbc00f108b0e77587b7b338279b3b46a5934f3b1fdab7a38",
         "scripts/audit_html.mjs": "eb38a6292a545f61f52bb104f95688e4176725df59128fd9a63262a7ed36dfd9",
         "scripts/serve_local_html.mjs": "833beb61f812e7305dd939c79f675bf73ac01ef44f70f4a384e5a8397f336158"
-      }
+      },
+      "name": "editorial-report-html",
+      "version": "candidate-20261113-pm-routing"
     }
   ],
-  "diagram": {
-    "source_version": "0.6.0-rc.4",
-    "sha256": "8ad81aa92034140e3c7371a125a03e98c727f8310d0d037c23d0956f6fac0a20",
-    "note": "Diagram-only update. Skill files remain identical to the initial public 0.6.0-rc.1 release."
-  }
+  "version": "0.7.0-rc.1"
 }
